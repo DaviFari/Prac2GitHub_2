@@ -32,5 +32,10 @@ namespace WindowsFormsAppGitHub
             this.btn2.BackColor = System.Drawing.Color.Maroon;
             this.btn2.ForeColor = System.Drawing.SystemColors.ButtonFace;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+        }
     }
 }
